@@ -179,8 +179,11 @@ main {
   .author span {
     font-size: 12px;
     color: #9698a6; }
+  .author h3 {
+    padding-bottom: 0.5em; }
   .author p {
     font-size: 14px;
-    color: #9698a6; }
+    color: #9698a6;
+    padding-bottom: 5em; }
 
 /*# sourceMappingURL=style.css.map */
