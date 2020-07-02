@@ -1,0 +1,17 @@
+//Colors// 
+
+//Primary// 
+$primary-1:hsl(233, 26%, 24%);
+$primary-2:#31d35c;
+$primary-3:#2bb7da;
+
+//Neutral// 
+$neutral-1:hsl(233, 8%, 62%);
+$neutral-2:hsl(220, 16%, 96%);
+$neutral-3:hsl(0, 0%, 98%);
+$neutral-4:hsl(0, 0%, 100%);
+$button:linear-gradient(to right, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+$button-hover:linear-gradient(to right,lighten(#31d35c,5%) ,lighten(#00d192,5%) ,lighten(#00cbbb,5%) ,lighten(#00c2d4,5%) ,lighten(#2bb7da,5%) );
+
+
+$hamburger-menu:linear-gradient(to bottom, #000000, #00000085, #58585800, #87878700, #b9b9b900, #d0d0d0, #e7e7e7, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);

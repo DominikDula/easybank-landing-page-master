@@ -1,0 +1,82 @@
+.header{
+    width: 100%;
+
+}
+
+
+.logo{
+    width: 100%;
+    background-color: $neutral-4;
+    height: 4em;
+    display: flex;
+    padding: 0 1.5em;
+
+
+}
+
+.logo-holder{
+    width: 12em;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    .ham,.close{
+        width: 100%;
+        
+    }
+}
+
+.hamburger{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+    .ham,.close{
+        position: absolute;
+    }
+    .ham img{
+        width: 1.5em;
+        height: 0.9em;
+    }
+    .close img{
+        width: 1.2em;
+        height: 1.2em;
+    }
+}
+
+.navigation{
+    
+    width: 14em;
+    height: 13em;
+    display: flex;
+    background: #f5e7e7;
+    margin: 0 auto;
+    border-radius: 0.7em;
+    pointer-events: none;
+    opacity: 0;
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease-in-out;
+
+
+    ul{
+        margin: 1.5em auto;
+    }
+    ul>li{
+        padding: 0.5em 0;
+        color: $primary-1;
+    }
+}
+
+.active{
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s ease-in-out;
+
+
+}
+.nav-btn{
+    display: none;
+}
