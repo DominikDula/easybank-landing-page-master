@@ -46,10 +46,10 @@
 
 .navigation{
     
-    width: 14em;
-    height: 13em;
+    width: 85%;
+    height: 14em;
     display: flex;
-    background: #f5e7e7;
+    background: $neutral-4;
     margin: 0 auto;
     border-radius: 0.7em;
     pointer-events: none;
@@ -59,24 +59,54 @@
     left: 50%;
     transform: translate(-50%, -50%);
     transition: 0.5s ease-in-out;
+    border: 2px solid black;
 
 
     ul{
         margin: 1.5em auto;
     }
-    ul>li{
+    ul>li {
         padding: 0.5em 0;
+        
+    }
+    ul li a{
         color: $primary-1;
+        text-decoration: none;
     }
 }
 
 .active{
     opacity: 1;
     pointer-events: all;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
 
 
 }
+
+
+.close{
+    display: none;
+    transition: 0.3s ease-in-out;
+    animation: onclose 0.3s ease-in-out;
+}
+
+.ham{
+    
+    transition: 0.3s ease-in-out;
+    animation: onham 0.3s ease-in-out;
+}
+
+
 .nav-btn{
     display: none;
+}
+
+@keyframes onham{
+    from {transform: rotate(90deg);}
+  to {transform: rotate(0deg);}
+}
+
+@keyframes onclose{
+    from {transform: rotate(0deg);}
+  to {transform: rotate(90deg);}
 }

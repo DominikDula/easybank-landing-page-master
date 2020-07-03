@@ -1,7 +1,7 @@
 .articles{
     width: 100%;
     height: 100%;
-    padding-top: 5em;
+    padding: 5em 0;
     background-color: $neutral-4;
 
     .title,.article-wrapper{
@@ -17,15 +17,15 @@
 
 }
 
-.article-wrapper{
+.articles{
     background-color: $neutral-3;
 }
 .author{
-    width: 80%;
-    // background: lightblue;
+    width: 100%;
+    background-color: $neutral-4;
     margin: 0 auto;
     text-align: left;
-    padding-top: 1em;
+    padding: 1em 3em ;
     
     span,h3,p{
         padding: 1em 0;

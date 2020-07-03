@@ -1,0 +1,58 @@
+.footer{
+    background-color: $primary-1;
+}
+
+.overview{
+    margin: 0 2em ;
+    text-align: center; 
+       
+}
+.socials{
+    .footer-logo{
+        padding-top: 2.5em;
+        padding-bottom: 1em;
+    }
+}
+
+.icons{
+    justify-content: center;
+    display: flex;
+    margin-top: 1em;
+    ul{
+        display: flex;
+
+    }
+
+    ul li{
+        padding: 0 0.5em;
+    }
+}
+
+.footer-nav{
+    margin-top: 2em;
+  
+    .left,.right{
+    font-weight: 300;
+    font-size: 16px;
+    li{
+        padding: 10px 0;
+    }
+    a{
+        text-decoration: none;
+        color: $neutral-3;
+
+    }
+    a:hover{
+        color: $neutral-1;
+    }
+} 
+
+}
+
+.copyright p{
+    color: $neutral-1;
+    padding-bottom: 2.5em;
+
+}
+
+

@@ -1,7 +1,7 @@
 //Colors// 
 
 //Primary// 
-$primary-1:hsl(233, 26%, 24%);
+$primary-1:#2d314d;
 $primary-2:#31d35c;
 $primary-3:#2bb7da;
 
@@ -9,7 +9,7 @@ $primary-3:#2bb7da;
 $neutral-1:hsl(233, 8%, 62%);
 $neutral-2:hsl(220, 16%, 96%);
 $neutral-3:hsl(0, 0%, 98%);
-$neutral-4:hsl(0, 0%, 100%);
+$neutral-4:#ffffff;
 $button:linear-gradient(to right, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
 $button-hover:linear-gradient(to right,lighten(#31d35c,5%) ,lighten(#00d192,5%) ,lighten(#00cbbb,5%) ,lighten(#00c2d4,5%) ,lighten(#2bb7da,5%) );
 
