@@ -3,6 +3,7 @@ main{
     background-position-y: -111px;
     background-position-x: 14px;
     overflow: hidden;
+    background: $neutral-3;
 }
 
 .container{
@@ -59,4 +60,87 @@ main{
     }
     
   }
+
+  @media only screen and (min-width:950px){
+
+    main{
+        display: flex;
+        height: 36em;
+        overflow: visible;
+    }
+    .container{
+        background-image: url(/images/bg-intro-desktop.svg);
+        order: 2;
+        height: 100%;
+        background-position-x: 0px;
+        background-size: cover;
+
+    }
+
+    .bg-holder{
+        width: 100%;
+        overflow: hidden;
+        img{
+            margin-top: -100px;
+            margin-left: 90px;
+        }
+    }
+
+    .content{
+        order: 1;
+        height: 100%;
+        display: flex;
+
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align:left;
+        }
+    }
+   
+  }
+
+   
+            
+            
+        
+    
+ 
+  @media only screen and (min-width:1200px){
+    .container{
+        background-position-x: -7px;
+    }
+    .bg-holder{
+        
+        img{
+            
+            margin-left: 190px;
+        }
+    }
+      .content{
+          .info{
+             padding: 0 5.5em; 
+             margin: 0;
+             .request-btn{
+                 margin: 3em 0;
+             }
+          }
+      }
+  }
+
+  @media only screen and (min-width:1200px){
+    .container{
+        background-position-x: 60px;
+    }
+}
+
+  @media only screen and (min-width:1500px){
+    .container{
+        background-position-x: 160px;
+    }
+    .bg-holder img{
+        margin-left: 290px;
+     } 
+}   
   

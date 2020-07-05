@@ -25,7 +25,8 @@ p {
   font-weight: 400; }
 
 .header {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .logo {
   width: 100%;
@@ -95,7 +96,8 @@ p {
   animation: onham 0.3s ease-in-out; }
 
 .nav-btn {
-  display: none; }
+  display: none;
+  background-color: #ffffff; }
 
 @keyframes onham {
   from {
@@ -107,10 +109,56 @@ p {
     transform: rotate(0deg); }
   to {
     transform: rotate(90deg); } }
+@media only screen and (min-width: 700px) {
+  .header {
+    display: flex; }
+
+  .ham, .close, .active, .hamburger {
+    display: none; }
+
+  .navigation {
+    opacity: 1;
+    width: 100%;
+    height: 4em;
+    justify-content: flex-end;
+    margin: unset;
+    border-radius: unset;
+    pointer-events: all;
+    position: unset;
+    top: unset;
+    left: unset;
+    transform: unset;
+    transition: unset;
+    border: none; }
+    .navigation ul {
+      display: flex;
+      margin: 1.5em 0; }
+    .navigation ul > li {
+      padding: 0;
+      margin-right: 1.5em; }
+      .navigation ul > li a:hover {
+        color: #9698a6; } }
+@media only screen and (min-width: 950px) {
+  .nav-btn {
+    display: flex;
+    padding: 1em; }
+    .nav-btn .request-btn {
+      margin: 0; } }
+@media only screen and (min-width: 1200px) {
+  .logo {
+    width: 50%;
+    padding: 0 5.5em; }
+
+  .nav-btn {
+    padding: 1em 5.5em; }
+
+  .navigation {
+    justify-content: flex-start; } }
 main {
   background-position-y: -111px;
   background-position-x: 14px;
-  overflow: hidden; }
+  overflow: hidden;
+  background: #fafafa; }
 
 .container {
   width: 100%;
@@ -152,6 +200,56 @@ main {
   .request-btn:hover, .request-btn:focus {
     background: linear-gradient(to right, #46d76d, #00eba4, #00e5d2, #00d9ee, #41bede); }
 
+@media only screen and (min-width: 950px) {
+  main {
+    display: flex;
+    height: 36em;
+    overflow: visible; }
+
+  .container {
+    background-image: url(/images/bg-intro-desktop.svg);
+    order: 2;
+    height: 100%;
+    background-position-x: 0px;
+    background-size: cover; }
+
+  .bg-holder {
+    width: 100%;
+    overflow: hidden; }
+    .bg-holder img {
+      margin-top: -100px;
+      margin-left: 90px; }
+
+  .content {
+    order: 1;
+    height: 100%;
+    display: flex; }
+    .content .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left; } }
+@media only screen and (min-width: 1200px) {
+  .container {
+    background-position-x: -7px; }
+
+  .bg-holder img {
+    margin-left: 190px; }
+
+  .content .info {
+    padding: 0 5.5em;
+    margin: 0; }
+    .content .info .request-btn {
+      margin: 3em 0; } }
+@media only screen and (min-width: 1200px) {
+  .container {
+    background-position-x: 60px; } }
+@media only screen and (min-width: 1500px) {
+  .container {
+    background-position-x: 160px; }
+
+  .bg-holder img {
+    margin-left: 290px; } }
 .about {
   background-color: #f3f4f6; }
 

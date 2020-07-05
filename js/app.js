@@ -6,8 +6,6 @@ let navigation = document.querySelector(".navigation");
 console.log(ham,closed,navigation);
 
 
-
-
 function isActive(){
     navigation.classList.add("active");
     ham.style= "display:none;";
@@ -16,7 +14,6 @@ function isActive(){
     document.body.classList.remove("bclose");
    
 }
-
 
 function nonActive(){
     navigation.classList.remove("active");
@@ -29,6 +26,7 @@ function nonActive(){
 
 ham.addEventListener("click",isActive);
 closed.addEventListener("click",nonActive);
+
 
 
 
