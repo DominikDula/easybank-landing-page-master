@@ -44,3 +44,28 @@
     }
 }
 
+@media only screen and (min-width:700px){
+    .author{
+        text-align: center;
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .article-wrapper{
+        display: flex;
+        padding: 0 5.5em;
+        .paper{
+            margin: 0 0.5em;
+            
+        }
+    }
+    
+        
+    
+
+    .author{
+        text-align: center;
+        width: 100%;
+    }
+}

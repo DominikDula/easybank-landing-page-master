@@ -10,8 +10,7 @@ function isActive(){
     navigation.classList.add("active");
     ham.style= "display:none;";
     closed.style = "display:block;";
-    document.body.classList.add("bactive");
-    document.body.classList.remove("bclose");
+ 
    
 }
 
@@ -19,8 +18,7 @@ function nonActive(){
     navigation.classList.remove("active");
     ham.style= "display:block;";
     closed.style = "display:none;";
-    document.body.classList.remove("bactive");
-    document.body.classList.add("bclose");
+
    
 }
 

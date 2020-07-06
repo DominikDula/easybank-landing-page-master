@@ -96,6 +96,9 @@ main{
             flex-direction: column;
             justify-content: center;
             text-align:left;
+            .request-btn{
+                margin: 3em 0;
+            }
         }
     }
    
@@ -122,9 +125,7 @@ main{
           .info{
              padding: 0 5.5em; 
              margin: 0;
-             .request-btn{
-                 margin: 3em 0;
-             }
+             
           }
       }
   }
