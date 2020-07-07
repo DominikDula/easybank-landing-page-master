@@ -26,6 +26,11 @@
     ul li{
         padding: 0 0.5em;
     }
+    ul li a:hover svg path,
+    ul li a:focus svg path{
+        fill:$primary-2;
+    }
+    
 }
 
 .footer-nav{
@@ -43,7 +48,7 @@
 
     }
     a:hover{
-        color: $neutral-1;
+        color: $primary-2;
     }
 } 
 
@@ -60,13 +65,20 @@
         display: flex;
         padding: 3em 0;
         .socials{
-            width: 33%;
+            width: 25%;
             .icons{
-                margin-top: 4em;
+                margin-top: 3.5em;
+                padding-left: 5.5em;
+                text-align: left;
+                display: block;
+            }
+            .footer-logo{
+                padding-left: 5.5em;
+                text-align: left;
             }
         }
         .footer-nav{
-            width: 33%;
+            width: 37.5%;
             display: flex;
             align-items: center;
             justify-content: space-around;
@@ -75,9 +87,34 @@
             }
         }
         .copyright{
-            width: 33%;
+            width: 37.5%;
+            text-align: right;
+            button{
+                margin: 3em 7.5em 3em;
+            }
+            p{
+                margin-right: 5.5em;
+            }
+
         }
     }
 }
 
+
+
+
+.attribution{
+    display: flex;
+    width: 100%;
+    height: 4.5em;
+    justify-content: center;
+    align-items: center;
+    background: #2e3352;
+    color: white;
+   
+    a{
+        text-decoration: none;
+        color: $primary-2;
+    }
+}
 

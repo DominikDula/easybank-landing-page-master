@@ -46,7 +46,7 @@ main{
 .request-btn{
     margin: 3em auto;
     padding: 1em;
-    display: block;
+    // display: block;
     width: 12em;
     border-radius: 25px;
     font-weight: bold;
@@ -123,9 +123,11 @@ main{
     }
       .content{
           .info{
-             padding: 0 5.5em; 
+             padding: 0 7.5em; 
              margin: 0;
-             
+             h1{
+                 font-size: 2.5em;
+             }
           }
       }
   }

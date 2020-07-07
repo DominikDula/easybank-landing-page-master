@@ -3,7 +3,6 @@
 let ham = document.querySelector(".ham");
 let closed = document.querySelector(".close");
 let navigation = document.querySelector(".navigation");
-console.log(ham,closed,navigation);
 
 
 function isActive(){
